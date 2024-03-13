@@ -225,7 +225,7 @@ body {
   margin-top: 20px;
   padding: 0 20px;
 }
-.offer_item-duration {
+.offer__item-duration {
   display: flex;
   color: #817979;
   justify-content: space-between;
@@ -254,4 +254,89 @@ body {
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
   font-size: 16px;
   font-weight: 300;
+}
+
+.edu {
+  color: #222121;
+  margin: 40px;
+  text-align: center;
+  font-size: 55px;
+}
+.tutors__pers-left-block {
+  padding: 20px;
+}
+.tutors__pers-left-block img {
+  margin: 0px;
+  padding: 10px;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  min-width: 200px;
+  min-height: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.teach {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  background-color: #ececec;
+}
+.tutors__pers-name {
+  font-size: 32px;
+  color: #817979;
+}
+.tutors__pers-description {
+  font-size: 20px;
+  color: #817979;
+  padding: 50px;
+  display: flex;
+}
+.tutors__pers-birth {
+  font-size: 20px;
+  color: #817979;
+  font-weight: 700;
+}
+.tutors__pers-langs {
+  font-size: 20px;
+  color: #817979;
+}
+.tutors__pers-langs span {
+  font-size: 20px;
+  color: #817979;
+  font-weight: 700;
+}
+.tutors__pers-rate {
+  font-size: 20px;
+  color: #817979;
+}
+.tutors__pers-rate span {
+  font-size: 20px;
+  color: #817979;
+  font-weight: 700;
+}
+.tutors__pers-experience {
+  font-size: 20px;
+  color: #817979;
+  padding: 20px;
+}
+.tutors__pers-experience span {
+  font-size: 20px;
+  color: #817979;
+  font-weight: 700;
+}
+.tutors__pers-education {
+  font-size: 20px;
+  color: #817979;
+  padding: 20px;
+}
+.tutors__pers-education span {
+  font-size: 20px;
+  color: #817979;
+  font-weight: 700;
+}
+.divide {
+  margin: 30px;
 }
