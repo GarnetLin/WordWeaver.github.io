@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WordWeaver - about us</title>
+    <title>WordWeaver</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -13,15 +13,19 @@
           <img src="icons/logo.svg" alt="Logotype" />
         </div>
         <nav class="header__links">
-          <a href="about_us.html" class="header__link">about us</a>
-          <a href="courses.html" class="header__link">courses</a>
-          <a href="#" class="header__link">certificates</a>
+          <div class="some_class">
+            <a href="about_us.html" class="header__link">about us</a>
+            <a href="courses.html" class="header__link">courses</a>
+            <a href="#" class="header__link">certificates</a>
+          </div>
         </nav>
       </div>
       <div class="header__right-block">
         <button data-modal class="btn btn_white">Contact us</button>
       </div>
     </header>
+
+    <div class="divider"></div>
 
     <div class="company-description">
       <p>
@@ -81,10 +85,40 @@
         </div>
         <div class="call">
           <div class="subtitle">Or contact us</div>
-          <a href="#" class="link">+380678341034</a>
-          <a href="#" class="link">+380500941356</a>
+          <a href="#" class="link">+352 11 111 111</a>
+          <a href="#" class="link">+352 11 111 111</a>
         </div>
       </div>
     </footer>
+
+    <div class="modal">
+      <div class="modal__dialog">
+        <div class="modal__content">
+          <form action="#">
+            <div data-close class="modal__close">&times;</div>
+            <div class="modal__title">
+              We will contact you as soon as possible!
+            </div>
+            <input
+              required
+              placeholder="Your name"
+              name="name"
+              type="text"
+              class="modal__input"
+            />
+            <input
+              required
+              placeholder="Your phone number"
+              name="phone"
+              type="phone"
+              class="modal__input"
+            />
+            <button class="btn btn_dark btn_min">Call me</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
   </body>
 </html>

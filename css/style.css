@@ -13,60 +13,65 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; /* Center items vertically */
   height: 150px;
-  padding: 100px;
+  padding: 10px; /* Adjust padding as needed */
+
+  flex-wrap: nowrap;
 }
+
 .header__left-block {
   display: flex;
-  justify-content: space-between;
-  min-width: 100px;
+  align-items: center;
 }
+
 .header__logo {
+  min-width: 100px;
   max-width: 170px;
-  justify-content: space-between;
 }
+
 .header__logo img {
   width: 100%;
 }
+
 .header__links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 100px;
 }
+
 .header__link {
-  position: relative;
-  margin-right: 45px;
   font-weight: 600;
   font-size: 20px;
   color: #303030;
-}
-.some_class {
-  justify-content: space-between;
+  text-decoration: none;
+  padding: 0 10px;
 }
 
 .btn {
   width: 200px;
   height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #fff;
   font-size: 20px;
+  margin: 20px;
   font-weight: 700;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: 0.3s;
-  outline: 0;
 }
 .btn_white {
   background-color: #fff;
 }
-
 .btn:hover {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+.divider {
+  width: auto;
+  height: 5px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .company-description {
